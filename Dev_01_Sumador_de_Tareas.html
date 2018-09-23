@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lista de Tareas</title>	
+	
+</head>
+<body>
+
+	<!--
+	//////////////////////////////////////////////////////////////////////////////////////////
+	Vue Js
+
+		https://vuejs.org/
+			https://vuejs.org/v2/guide/
+
+
+		Curso Juan Andres nuñez: 28 (videos)
+			https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+			Aprende Vue.js esencial #1 - Introducción
+				https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+
+	//////////////////////////////////////////////////////////////////////////////////////////
+	-->	
+
+
+	
+	<div id="modulo">
+
+		<!--modificar el key del modelo a través, del usuario-->
+		<input type="tex" v-model="nuevaTarea" placeholder="Tu Tarea Aquí">
+
+		<!--boton para agregar tarea y a su vez para almacenar la tarea-->
+		<input type="submit" name="guardar" value="Añadir Tarea" @click="capturarTareas(nuevaTarea)">
+
+		<!--renderizar el key del modelo en el cliente-->
+		<p>{{nombre}}</p>
+
+		<!--iteración de los elementos de matriz de objetos del modelo vuejs-->
+		<ul v-for="lista in tareas">
+			<li><a href="#" @click="deleteTarea(lista)">X</a>{{lista.nombre}}</li>
+		</ul>
+		
+
+	</div>	
+
+	
+	<!--vuejs-->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+	<!--model-->
+	<script type="text/javascript">		
+		
+		new Vue({
+
+			el: '#modulo',
+
+			data:{
+
+				nombre: 'tonyMaster',
+
+				nuevaTarea: '',
+
+				tareas: [
+					{nombre: 'debo revisar Fiveer diariamente'},
+					{nombre: 'debo revisar Freelancer diariamente'},
+					{nombre: 'debo actualizar mi portafolo regularmente'}
+				]
+			},
+
+			methods: {
+
+				capturarTareas: function(t){
+					this.tareas.push({nombre: t});
+					this.nuevaTarea = '';
+				},
+
+				/*esta opción de eliminar las tareas no ha funcionado*/
+				deleteTarea: function(t){
+					if(confirm('¿Eliminar ' + t.nombre + '?'))
+						this.tareas.$remove(t);
+				}
+			}
+			
+		});
+
+
+	</script>
+	
+	
+</body>
+</html>

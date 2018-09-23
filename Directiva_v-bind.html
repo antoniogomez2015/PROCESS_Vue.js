@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Directiba v-bind:</title>	
+	
+</head>
+<body>
+
+	<!--
+	//////////////////////////////////////////////////////////////////////////////////////////
+	Vue Js
+
+		https://vuejs.org/
+			https://vuejs.org/v2/guide/
+
+
+		Curso Juan Andres nuñez: 28 (videos)
+			https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+			Aprende Vue.js esencial #1 - Introducción
+				https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+
+	//////////////////////////////////////////////////////////////////////////////////////////
+	-->	
+
+
+	
+	<div id="modulo">
+		
+		<!--direccionamiento dinámico con la directiva v-bind:-->
+		<a v-bind:href="ruta" target="_blank">pagina web</a>		
+
+	</div>	
+
+
+	
+	<!--vuejs-->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+	<!--model-->
+	<script type="text/javascript">		
+		
+		new Vue({
+
+			el: '#modulo',
+
+			data:{
+
+				ruta: 'http://www.google.com'
+				
+			}
+			
+		});
+
+
+	</script>
+	
+	
+</body>
+</html>

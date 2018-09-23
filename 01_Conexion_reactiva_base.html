@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Conexión Base</title>	
+	
+</head>
+<body>
+
+	<!--
+	//////////////////////////////////////////////////////////////////////////////////////////
+	Vue Js
+
+		https://vuejs.org/
+			https://vuejs.org/v2/guide/
+
+
+		Curso Juan Andres nuñez: 28 (videos)
+			https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+			Aprende Vue.js esencial #1 - Introducción
+				https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+
+	//////////////////////////////////////////////////////////////////////////////////////////
+	-->	
+
+
+	
+
+	<h2>Tareas:</h2>
+	
+	<!--elemento html, con id="",y asosiación base {{}}-->
+	<p id="tag">{{ nombre }}</p>
+
+	
+
+	
+	<!--librería vuejs-->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+	<!--model vuejs-->
+	<script type="text/javascript">		
+		
+		new Vue({
+
+			el: '#tag',
+
+			data: {
+
+				nombre: 'Sumador de Tareas'			
+
+			}
+		});
+
+
+	/*
+	_de ésta manera, con el elemento de entrada (el: ''), y a través, del id="#tag", en éste caso, podremos acceder al elemento html <p>, respectivo
+
+	_para a continuación en el modelo (data:), a través, de la "Key", "nombre:", la cuál, tiene un valor por defecto de 'Sumador de Tareas'
+
+	_el cuál, será renderizado dentro de la sintaxis "mostache" {{}}, ubicada dentro del tag <p>, relacionado con el elemento de entrada expresado anteriormente
+	*/
+
+
+	</script>
+	
+	
+</body>
+</html>

@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vue Js</title>	
+	
+</head>
+<body>
+
+	<!--
+	//////////////////////////////////////////////////////////////////////////////////////////
+	Vue Js
+
+		https://vuejs.org/
+			https://vuejs.org/v2/guide/
+			En Español: https://es-vuejs.github.io/vuejs.org/v2/guide/events.html
+
+
+		Curso Juan Andres nuñez: 28 (videos)
+			https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+
+		Curso de Vuejs2 (10 videos)
+			la variable de conveniencia "$data",
+
+
+		Documentación Javscript:
+			https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales
+
+	//////////////////////////////////////////////////////////////////////////////////////////
+	Definiciones:
+	_____________
+
+		Vuejs:
+		______
+
+		_Compomnentes reactivos para webs modernas
+
+		_de ésta manera, un comopnente html, lo podremos relacionar con una fuente de datos, de ésta manera, cuando la fuente de datos cambia el componente html, también, cambia
+
+		_es decir reacción, pero también, el componente puede cambiar la fuente de datos por lo cuál, la acción reactiva se realiza en los dos sentidos
+
+
+		Data Binding:
+		_____________
+
+		_tecnología que mapea las propiedades de la instancia de un objeto de datos con con su localización en una fuente de datos. 
+
+		_Donde la fuente de datos es cualquier repositorio donde estén o puedan almacenarse esos datos como bases de datos
+
+
+
+	//////////////////////////////////////////////////////////////////////////////////////////
+	Estructuras de Vuejs:
+	_____________________
+
+	Instancias de Vuejs:
+	____________________
+
+		_para lo cual, dentro de un script, javascript, debemos de crear una nueva instancio de un objeto de tipo vuejs
+
+		_para lo cuál, debemos de hacer uso de build key, especial "new"
+
+		_seguido del objeto especial "Vue()", el cuál, recibirá como parámetro un objecto "{}"
+
+		_de ésta manera, el objeto {}, que recibirá como parámetro el objeto Vue(), está conformado por lo general por dos keys:
+
+
+			_"el:", éste es el elemento ó key, donde se irá supervisando la reactividad la cuál, puede estar conformado por una etiqueta html, un selector de clase ó u ID
+
+			_"data:", ´sete elemento ó key, es un enlace de datos entre la vista y el usuario es una propiedad llamada "data{}", la cuál, será un objeto el cuál, a su vez, estará conformado por diferentes keys ó atributos
+
+
+	Directivas:
+	___________
+
+
+		v-model="":
+		___________
+
+		_las directivas son atributos html, adicionales los cuáles, se agregan a la estructura html, para tener acceso bi direccional tanto de vuejs, hacia el html, como del html, hacia vudejs, para que así, pueda realizarse la relación reactiva en ambos sentidos
+
+		_como por ejemplo; v-model="nombre", como un atributo adicional en un <input>, a través, del cuál, podremos relacionar la estructura html, con el modelo de vuejs
+
+
+		v-if="":
+		________
+
+		_la directiva (v-if="":), nos permitirá evaluar una expresión, por ejemplo; si (15 > 5), si quince es mayor que quince
+
+		_de ésta manera, si quince es mayor que quince, entonces se renderizará el contenido parte del modelo respectivo de vuejs, y de ser falso el contenido no se renderizará
+
+		_asi, como también, podríamos colocar como valor el nombre de la propiedad del modelo respectivo, ej:
+
+
+			_(v-if="esVerdaderoOfalso":)
+
+
+		_y si en el modelo éste tiene un valor de falso entonces el contenido no se renderizará y veceversa, ej:
+
+
+			el: '#modulo',
+
+			data:{
+
+				esVerdaderoOfalso: false,
+				
+			},
+
+
+		_también, podríamos indicar lo contrario si agregado el símbolo de autentificado (!), precedido del elemento, ej:
+
+			_(v-if="!esVerdaderoOfalso":)
+
+
+		_y en el modelo tiene un valor de "true"
+
+
+			el: '#modulo',
+
+			data:{
+
+				esVerdaderoOfalso: true,
+				
+			},
+
+
+		_de ésta manera, podremos hacer comprobaciones de lógica como números como también a través, de la interacción del usuario 
+
+		_es decir, que si el usuario cambia ó no una propiedad del modelo a través, de un input, por ejemplo, se podrán hacer visibles partes de una interface, como el botón de enviar, otros
+
+		NOTA: si la evaluación del condicional (if), de la directiva v-if="", es negativa el sistema de vuejs, eliminará el elemento html, respectivo de la estructura del documento no renderizando éste elemento
+
+
+
+		v-show="":
+		__________
+
+		_la directiva (v-show="":), tiene las mismas características generales que la directiva (v-if="":)
+
+		_con la única diferencia que la directiva (v-show="":), no eliminará ó dejará de renderizar el respectivo elemento html, con el cuál, esté relacionado 
+
+		_si no que en vez de esto, ocultará el respectivo elemento a través, de la propiedad css, (display: none)
+
+
+
+		v-for="":
+		_________
+
+		_la directiva v-for="", nos permitirá iterar dentro de una matriz de objetos dentro de un modelo vuejs, ej:
+
+			<ul v-for="lista in tareas">
+				<li>{{lista.nombre}}</li>
+			</ul>
+
+		_de ésta manera, "lista", se referirá a como se llamará el constructor dentro del elemento que se repetirá ó  iterará, en éste caso <li></li>, renderizando todos los elementos dentro del objeto vuejs
+
+		_y "tareas", hará referenia al nombre de la matriz de objetos específica dentro del modelo "data", de vuejs
+
+
+		v-bind:
+		_______
+
+		_la directiva (v-bind:), tiene una declaración más compacta precidiendo de el signo de asignación (=), y de las comillas (''), para poder contatenar elementos seduido del signo de dos puntos (:)
+
+		_más la directaiva (v-bind:), nos permitirá añadir ó enlazar la cuál, nos permitirá por ejemplo agregar contenido del modelo por ejemplo; un enlace web
+
+			_<a v-bind:href="direccion" target="_blank">Esto es un Enlace</a>
+
+
+		_de ésta manera, "direccion", corresponderá a una proiedad ó elemento del modelo de vuejs, por ejemplo, una ruta web
+
+
+			el: '#modulo',
+
+			data:{
+
+				direccion: 'http://www.google.com',
+				
+			},
+
+
+		_de ésta manera, podremos cambiar direcciones web, dinámicamente, otros
+
+
+
+		V-on: | @event
+		_____
+
+		_la directiva (v-on:), nos permitirá relacionar una función ó consecuencia ha ejecutar a trávés, de un evento relacionado
+
+		_de ésta manera, la directiva (v-on:), tiene una declaración más compacta precidiendo de el signo de asignación (=), y de las comillas (''), para poder contatenar eventos en éste caso seduido del signo de dos puntos (:)
+
+		_y más aún la directiva (V-on:), dispone de un expresión abreviada la cuál es más práctica para su implementación, la cuál, es:
+
+			_@click=""
+
+
+		_de ésta manera, seguido del arroba "@", irá indicado el tipo de evento, en éste caso es un evento de tipo "click"
+
+		_seguido de un signo de asignación "=", y a continuación de comillas en las cuáles se definirá el nombre del método a ejecutarse el cuál, podrá llevar parámetros ó no respectivamente
+
+		
+
+	Asociaciones:
+	_____________
+
+
+		Asociación Base:
+		________________
+
+		_una vez hemos relacionado vuejs, con la estructura html, en el paso anterior de forma bi direccional
+
+		_debemos ahora también, asociar vuejs, con el componente ó parte de la estructura html, que renderizará los cambios realizados por vuejs, y ell usuario de forma reactiva
+
+		_para lo cuál, utilizaremos la sintaxis "mostache", "{{ }}" , ej:
+
+			<p>{{ $data }}</p>
+
+			
+
+		_de ésta manera, crearemos un nivel de "data binding", ó dirección de "data binding", ó reactividad del modelo hacia del componente ó estructura html, respectiva
+
+		_de ésta manera, si se cambia la información en el modelo de tados específico también, se cambiará automáticamente el valor renderizado por <p>{{ $data }}</p>
+
+		_más si la conexión de data binding, estubiera realizada en input, u otro elemento a través, del cuál, el usuario pueda introducir información el usuario también, podría cambiar la información del modelo generando la reactividad bi direccional
+
+		_para lo cuál, hacemos uso del método de conveniencia "$", precedido en éste caso del modelo ha mostrar de "data", quedando de la siguiente manera, "$data"
+
+		_para que así, de ésta manera, los elementos dentro del modelo "data", sean renderizados dentro de {{}}
+
+
+		Asociación con Json:
+		____________________
+
+		_más también podremos pasar la asociación del modelo de vuejs, por la notación json, para que así, obtengamos los datos estructurados como un objeto javascript, ej:
+
+			<pre>{{ $data | json }}</pre>
+
+
+		_para que el cliente nos renderize los datos de forma dinámica y ordenada
+
+
+
+	Modelo:
+	_______
+
+		_para lo cuál, debemos de instanciar un nuevo objeto vuejs, ejemplo:
+
+
+			new Vue({
+
+				el: '#formulario',
+
+				data: {
+					nombre: '',
+					edad: '',
+					sexo: '',
+					correo: ''
+				}
+	
+			});
+
+
+		/*
+
+		Elemento de Entrada:
+		____________________
+
+		_de ésta manera, el nuevo objeto vuejs, estará conformado por un elemento de entrada, un punto en el que vuejs, podrá asociarse con una parte de la esctructura html, específica dentro del DOM, para lo cuál, haremoa uso del "Key (el)", ej:
+
+
+			el: 'body'
+
+
+		_en éste así, estaremos indicando que vuejs, podrá acceder a todos los elementos dentro del tag, ó etiqueta <body>, del documento html
+
+
+			el: '#campo'
+
+
+		_así, como también, podremos especificar un id="", de un elemento html, en específico
+
+
+		Modelo:
+		_______
+
+		_de ésta manera, el modelos estará conformado por la "Key (data)", así, a través, de la key data, podremos hacer referencia a otro objeto que tengamos disponible ó a través, de la sintaxis literal "{}", podremos definirlo ó declararlo de una vez, ej:
+
+
+			data: {
+	
+				nombre: '',
+				edad: '',
+				sexo: '',
+				correo: ''
+			}
+
+
+		Workflow: de ésta manera, primeramente vuejs, a través, del elemento de entrada: (el: 'body'), accederá en éste caso a la estructura html 
+
+		_para luego proceder ha buscar los elementos configurados en el modelo (data:{}), siguiente dentro del objeto Vue, que hemos creado previamente
+
+		_de ésta manera, cada propiedad del modelo ej, (nombre: '',), corresponderá ha un atributo con el nombre de (v-model="nombre"), dentro de un elemento html, específico a la cuál, vuejs, accederá directamente de forma bi direccional
+
+
+
+	Events:
+	_______
+
+		@click=""
+		_________
+
+		_éste evento nos permitirá capturar acciones del usuario a través, del evento click, sobre un botón ó cualquier elemento html, con éste atributo de tipo evento vuejs, para que así, se ejecutado el método vuejs, indicado
+
+
+		@submit=""
+		__________
+
+		_éste evento nos permitirá enviar los campos de un formulario para que así, se ejecutado el método vuejs, indicado
+
+
+		@keyup=""
+		_________
+
+		_éste evento nos permitirá capturar el key, ó tecla digitada por el usuario en el teclado así, como también, desencadenar un método vuejs
+
+
+
+	Modificadores de Eventos:
+	_________________________
+
+		_los modificadores de eventos nos permitirán cambiar ó condicionar el comportamiento natural ó por defecto de evento, otros
+
+		_de ésta manera, debemos concatenar ".", a través, de la notación de punto a un evento seguido del modificador respectivo
+
+		_también, tendremos la posibilidad de concatenar más de un modificador a la vez, ejemplo:
+
+			_@submit.prevent.stop="accion"
+
+
+		.prevent
+		________
+
+		_éste modificador nos permitirá evitar los comportamientos por defecto de los diferentes elementos html, del navegador, como abrir enlaces, enviar formularios, otros
+
+		_lo cuál, es un simil a "e.preventDefault()", de javascript, nativo
+
+
+		.stop:
+		______
+
+		_éste modificador nos permitirá detener la propagación de evento hacia arriba
+
+
+		KeyModifier:
+		____________
+
+		_los key modifiers, sólo aplican a los evento de tipo "@keyup", de ésta manera, podremos filtrar y estar atentos sólo al discado de una tecla ó key específica, ej:
+
+			@keyup.left="nEvento"
+
+
+		_de ésta manera, el método "nEvento", sólo se desencadenará cuando la tecla "left", del teclado sea discada
+
+
+
+
+
+	Methods:
+	________
+
+		_los métodos se enmarcan dentro de un objeto dentro de vuejs, "methods:{}", dentro del cuál, podremos crear otros métodos ó funciones ha ejecutarse, también podremos crear matrices de objetos 
+
+		_de ésta manera, éstas estructuras al ser llamadas a través, de eventos dentro de los componentes html, por parte del usuario, otros
+
+
+	
+	Variables de Conveniencia:
+	__________________________
+
+		_las variables de conveniencia nos permitirán realizar operaciones de forma rápida y directa dentro  de vuejs
+
+		_las variables de conveniencias estarán precedidas por el signo de "$"
+
+
+		$data
+		_____
+
+		_la variable de conveniencia "$data", nos permitirá acceder a todos los elementos dentro del modelo de vuejs
+
+
+		$event
+		______
+
+		_la variable de conveniencia "$event", nos permitirá pasarla como parámetro a la hora de llamar a un método dentro de vuejs, de ésta manera, podremos tener acceso el evento html, ocurrido respectivamente la éste ser "undefined"
+
+
+		$key
+		____
+
+		_la variable de conveniencia "$key", hará referencia a cada nombre de propiedad dentro  del modelo de vuejs
+
+		_de ésta manera, y por ejemplo, la variable de conveniencia $key, hará referencia a cada nombre de propiedad de la iteración de la directiva "v-for="", en su recorrido por el objeto
+
+
+	Matrices:
+	_________
+
+		_tenemos la posibilidad del trabajo con matrices de objetos dentro de un modelo de vuejs, de ésta manera, podremos recorrer elementos y objetos como matrices dentro de vuejs
+
+		_de ésta manera, podremos crear contenido dinámico de forma interactiva y reactiva dentro de vuejs, y la interacción del usuario
+
+
+
+	*/
+
+
+
+
+
+
+
+	//////////////////////////////////////////////////////////////////////////////////////////
+
+
+	-->
+
+	<!--el sistema consta de la intervención del html, a través, de unos atributos personalizados como (v-model="")-->
+
+	<h1>Proof</h1>
+
+	<form action="" id="formulario">
+		
+		<input type="text" v-model="nombre" name="nombre" placeholder="Nombre">
+		<input type="number" v-model="edad" name="edad" placeholder="Edad">
+		<input type="text" v-model="sexo" name="sexo" placeholder="Sexo">
+		<input type="email" v-model="correo" name="email" placeholder="E-mail">
+		<button type="submit" v-if="nombre">Enviar Datos</button>
+
+		<pre>{{ $data | json }}</pre>
+
+	</form>
+
+
+
+
+
+	<!--así, como también, tendremos que relacionar la librería de Vuejs, a través, de cualquier cdn, al final del documento html-->
+
+	<!--una forma de confirmar que vuejs, está funcionando es ir a la consola del navegdor "shortcut, F12", en la cuál, debemos de tipear "Vue + enter", para que así, la consola nos devuelva la función constructora de vuejs-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
+
+	<!--así, como también, debemos de relacionar el archivo js, justo debajo de la librería de vuejs, en el cuál, iremos desarrollando el modelo de la lógica del sistema ha generar y demás elementos de vuejs-->
+	<script type="text/javascript" src="00_example.js"></script>
+
+
+	<!--también, podremos crear el código embebido directamente
+
+	<script type="text/javascript">
+		
+		new Vue({
+
+			el: '#formulario',
+
+			data: {
+				nombre: '',
+				edad: '',
+				sexo: '',
+				correo: ''
+			}
+			
+		});
+
+	</script>-->
+
+	
+	
+</body>
+</html>

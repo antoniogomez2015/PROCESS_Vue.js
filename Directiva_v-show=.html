@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Drectiva v-show=""</title>	
+	
+</head>
+<body>
+
+	<!--
+	//////////////////////////////////////////////////////////////////////////////////////////
+	Vue Js
+
+		https://vuejs.org/
+			https://vuejs.org/v2/guide/
+
+
+		Curso Juan Andres nuñez: 28 (videos)
+			https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+			Aprende Vue.js esencial #1 - Introducción
+				https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+
+	//////////////////////////////////////////////////////////////////////////////////////////
+	-->	
+
+
+	
+	<div id="modulo">
+
+		<!--menaje recordatorio con el símbolo de autentificado (!), para hacer el efecto de no mostrar éste mensaje sólo cuando haya texto en campo del textarea-->
+		<p v-show="!mensaje">Debes de incluir un mensaje en el campo de texto</p>
+		
+		<!--campo de mensaje dinámico en relación a la interacción del usuario-->
+		<textarea cols="30" rows="10" required placeholder="mensaje aquí" v-model="mensaje"></textarea>
+
+		<!--elemento condicionado a que haya un mensaje en campo de texto del textarea, ya que lo contrario éste elemento html, no será visible en el documento-->
+		<input type="submit" name="btn" value="Enviar Mensaje" v-show="mensaje">	
+
+	</div>	
+
+
+	
+	<!--vuejs-->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+	<!--model-->
+	<script type="text/javascript">		
+		
+		new Vue({
+
+			el: '#modulo',
+
+			data:{
+
+				mensaje: ''
+				
+			}
+			
+		});
+
+
+	</script>
+	
+	
+</body>
+</html>

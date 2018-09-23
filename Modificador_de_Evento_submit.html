@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo</title>	
+	
+</head>
+<body>
+
+	<!--
+	//////////////////////////////////////////////////////////////////////////////////////////
+	Vue Js
+
+		https://vuejs.org/
+			https://vuejs.org/v2/guide/
+
+
+		Curso Juan Andres nuñez: 28 (videos)
+			https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+			Aprende Vue.js esencial #1 - Introducción
+				https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+
+	//////////////////////////////////////////////////////////////////////////////////////////
+	-->	
+
+
+	
+	<div id="modulo">
+
+		<!--
+		_al enviar el formulario no se llevará a cabo el comportamiento natural del navegaodr de refrescar la página al dejar al atributo "action="", vacio 
+
+		_gracias al modificador "prevent" concatenado ".", al evento "@submit.prevent", el cuál, a su vez llama al método "enviando"
+		-->
+		<form @submit.prevent="enviando" action="" method="POST">
+
+			<!--a través, de la directiva "v-model", podremos acceder y editar una propiedad del modelo logrando reactividad de vuejs-->			
+			<input type="text" name="nombre" v-model="nombre" placeholder="Tu nombre">
+
+			<!--a través, de la directiva "@", podremo crear un evento e indicar el método a utilizarse creado dentro de vuejs-->
+			<button @click="saludo">Pulse Aquí</button>
+
+			<!--al configurar el evento "@submit="", dentro del tag, ó etiquea <form>, ahora vuejs, podrá acceder a la acción del talg html, input, de tipo "submit", para desencadenar ó ejecutar así, el método respectivo enunciado en "@submit="enviando". del tag <form>, de más arriba-->
+			<input type="submit" value="Enviar Formulario"></input>
+
+		</form>
+
+	</div>	
+
+
+	
+	<!--vuejs-->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+	<!--model-->
+	<script type="text/javascript">
+	
+		new Vue({
+
+			el: '#modulo',
+
+			data:{
+
+				nombre: 'Juan'
+				
+			},
+
+			methods:{
+
+				saludo: function(_evt){
+
+					_evt.preventDefault();
+
+					alert('Hola ' + this.nombre);
+
+					console.log(_evt);
+				},
+
+				enviando: function(){					
+
+					alert('Enviando formulario');
+				}
+			}
+			
+		});
+
+
+	</script>
+	
+	
+</body>
+</html>

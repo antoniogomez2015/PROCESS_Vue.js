@@ -1,0 +1,1510 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"text",
+				"textarea\tTag"
+			],
+			[
+				"modu",
+				"modulo"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"mis",
+				"misIconos"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"fot",
+				"font-weight"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"ease",
+				"_ease-in"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"backgrou",
+				"background-attachment"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"ord",
+				"border"
+			],
+			[
+				"flex",
+				"flex-end"
+			],
+			[
+				"base",
+				"baseline"
+			],
+			[
+				"wa",
+				"wrap"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ta",
+				"target\tAttr"
+			],
+			[
+				"hr",
+				"href"
+			],
+			[
+				"page",
+				"page2"
+			],
+			[
+				"lies",
+				"list-style"
+			],
+			[
+				"magi",
+				"margin-left"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"p",
+				"padding-right"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"s",
+				"statusActive"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"new",
+				"newTime"
+			],
+			[
+				"ahora",
+				"ahoraMismo"
+			],
+			[
+				"sali",
+				"salida_T"
+			],
+			[
+				"año",
+				"añoActual"
+			],
+			[
+				"pr",
+				"proof2"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"valo",
+				"valorDeMiCubo"
+			],
+			[
+				"onmo",
+				"onmouseout\tAttr"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"upp",
+				"upper-roman"
+			],
+			[
+				"lo",
+				"lower-roman"
+			],
+			[
+				"o",
+				"upper-roman"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"cata",
+				"catalogo_L2_1"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"he",
+				"helvetica"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"grid",
+				"grid_inmuebles"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"col",
+				"colummns"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"bo",
+				"border-right"
+			],
+			[
+				"sli",
+				"slideUp"
+			],
+			[
+				"tag",
+				"tag_L1_bottom"
+			],
+			[
+				"sl",
+				"slow"
+			],
+			[
+				"slide",
+				"slideDown"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"en",
+				"enlace"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"rep",
+				"background-repeat"
+			],
+			[
+				"bode",
+				"border"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"wd",
+				"width"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"ce",
+				"cerra_ventana"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"mi",
+				"miNuevoObjeto2"
+			],
+			[
+				"pla",
+				"platfrom"
+			],
+			[
+				"his",
+				"history"
+			],
+			[
+				"use",
+				"userMessage3"
+			],
+			[
+				"user",
+				"userMessage1"
+			],
+			[
+				"us",
+				"userMessage2"
+			],
+			[
+				"on",
+				"onmouseout\tAttr"
+			],
+			[
+				"a",
+				"apelldos"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"medi",
+				"media_sportSystem"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"sans",
+				"sans-serif"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"conta",
+				"containt"
+			],
+			[
+				"cont",
+				"containt"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"pro",
+				"proveedores"
+			],
+			[
+				"u",
+				"ul\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "00_Generales.html",
+			"settings":
+			{
+				"buffer_size": 15058,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "02_funcionalismos.html",
+			"settings":
+			{
+				"buffer_size": 1240,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Modelo_matrices.html",
+			"settings":
+			{
+				"buffer_size": 1313,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"book",
+				"Bookmarks: Select Next"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"package control ",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Vue Js 2018"
+	],
+	"file_history":
+	[
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Vue Js 2018/Evento_submit.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Vue Js 2018/Evento_keyup.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Vue Js 2018/Eventos_y_metodos.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/javascript/Variables_de_conveniencia/varaible_$event.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Vue Js 2018/Directiva_v-bind.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Vue Js 2018/01_Conexion_reactiva_base.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/javascript/reactividad_con_javascript.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Vue Js 2018/Dev_01_Sumador_de_Tareas.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Vue Js 2018/00_example.js",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/javascript_preconstruido/1_cambiar_atributos_html_src_de_imagenes.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/javascript/Object_date/objecto_date_metodo_getFullYear().html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Vuew Js 2018/00_Generales.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Cuentas/Google Drive proofTutosalterMassive@gmail.com.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Cuentas/Google Drive tutosmastermassive@gmail.com.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Cuentas/Google Drive massiveprostation@gmail.com.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Cuentas/Google Drive monoproduccion@gmail.com.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Cuentas/Google Drive massivegroupdesign@gmail.com.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Cuentas/Google Drive monographys@gmail.com.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Cuentas/Google Drive mono.vmx@gmail.com.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Cuentas/Google Drive massivo.ca@gmail.com.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Cuentas/Google Drive masivo.vfx@gmail.com.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Cuentas/Cuentas_en_Diferentes_Plataformas.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Cuentas/Google Drive Contenidos.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Cuentas/Cuentas_de_Correos.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Cuentas/Cuentas_Mega.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/serviciosWeb/04_ancho_de_banda.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Gulp/00_general.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/16_5_GitHub_git_Remote_Add_Link.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/03_Git_Bash_Settings.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/15_2_GitHub_Git_Remote.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/16_2_GitHub_Pull_Request.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/16_GitHub_Git_Push_Origin_Master.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/15_3_GitHub_Git_Remote_Comprovate.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/15_4_GitHub_Git_Remote_Remove.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/15_1_GitHub_New_Repository.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/13_GitHub_login.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/12_Git_Merge.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/11_Git_Branchs.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/07_3_Git_Tag.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/08_Git_Log.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/07_1_Git_Commit-a-m.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/07_4_Git_Show.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/14_GitHub_Git_Clone.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/06_1_Git_Diff.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/06_2_Git_Reset_Head.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/05_1_Git_cheackout--fileName.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/alter1.txt",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/09_Git_Checkout.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/07_4_Git_Ignore.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/07_2_Git_Commit--amend.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/07_0_Git_Commit.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/07_Git_Commit.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/07_4_Git_vm.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/06_Git_Add.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/proof2.txt",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/proof.txt",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/.gitignore",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/07_2_Git_Commit-a-m.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/07_1_Git_Ignore.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/html/4_etiquetas_semanticas_in_Block/02_nav_html.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/.git/COMMIT_EDITMSG",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/claves_demo.txt",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/05_Git_Status.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/00_Generales.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/web_y_programacion_v2/Git/01_Git_Instalacion.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/32_GitHub_Deploiment_ha_Servidor_Externo.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/34_GitHub_Hooks_o_Automatismos.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/00_Generales.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/30_GitHub_Servidor.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/15_GitHub_Git_Remote.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/12_Git_Marge.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/21_GitHub_Workflows.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/22_GitHub_Workflows_Administrador.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/25_GitHub_Workflows_Administrador_New_Project_Colaboradores.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/26_GitHub_Workflows_Administrador_Commits_de_Colaboradores.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/25_GitHub_Workflows_Administrador_Commits_de_Colaboradores.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/16_GitHub_Git_Push_Origin_Master.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/14_GitHub_Git_Clone.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/13_GitHub_login.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/11_Git_Branchs.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/08_Git_Log.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/10_Git_Reset.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/09_Git_Checkout.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/06_Git_Add.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/05_Git_Status.html",
+		"/C/xampp/htdocs/esculapioWeb2017_V2/source/css/main.css",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/02_Git_Bash.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/01_Git_Instalacion.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/03_Git_Bash_Settings.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/04_Git_Project.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/01_git bash.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/13_GitHub_Git_Push_Origin_Master.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/9_Git_Branchs.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/5_Git_Commit.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/6_Git_Log.html",
+		"/C/xampp/htdocs/esculapioWeb2017/index.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/2_Git Bash Comands.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/0_Git Bash Comands.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Git/0_git bash.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/4_gulp_install_sass.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/sassProject/sass/main.scss",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/app/gulpfile.js",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/sassProject/index.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/app/package.json",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/3_gulp_install_pug-jade.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/app/index.pug",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/app/index.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/00_general.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/2_gulp_new_task.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/1_gulp_new_project.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/source/js/gulpfile.js",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/2_gulp_install_pug-jade.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/1_gulp_y_pug_o_jade.html",
+		"/C/xampp/htdocs/pug/index.pug",
+		"/C/xampp/htdocs/pug/Gulpfile.js",
+		"/C/xampp/htdocs/pug/package.json",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/Gulp/00_gulp_y_pug_o_jade.html",
+		"/C/xampp/htdocs/pug/00_general.html",
+		"/C/xampp/htdocs/pug/node_modules/gulp/index.js",
+		"/C/xampp/htdocs/pug/node_modules/gulp/README.md",
+		"/C/xampp/htdocs/pug/node_modules/gulp/package.json",
+		"/C/xampp/htdocs/pug/gulpfile.js",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/JavaScript/4_Operadores_matematicos_y_otros/6_Operadores.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/javascript/00_generales.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web_y_Programacion/javascript/objetos_herencias.html",
+		"/C/Users/mono/Downloads/index.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web y Programacion/javascript/closures.html",
+		"/C/Users/mono/AppData/Roaming/idesktop/DFolder/capetas y arvhicos/PROCESOS/Web y Programacion/javascript/00_generales.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"identidad",
+			"slice",
+			"concat",
+			"toString",
+			"Splice",
+			"Push",
+			"Pop",
+			"entorno",
+			"confirm",
+			"alert",
+			"elemento",
+			"i",
+			"-(#{$",
+			"hijos",
+			"indice",
+			"var",
+			"div",
+			"singleColor",
+			"elements",
+			"singleColor",
+			"elements",
+			"singleColor",
+			"header",
+			"var",
+			"aver",
+			"demo",
+			"proof",
+			"miBg",
+			"misIconos",
+			"iccons2",
+			"icon",
+			"type",
+			" $",
+			"type",
+			"width",
+			"Control",
+			"repetir",
+			"div",
+			"width",
+			"h2",
+			"_cerrar",
+			"h2",
+			"otros",
+			"ser",
+			"multiservicioshostelar",
+			"post_1_L1_tumb4",
+			"red",
+			" \n",
+			">\n",
+			"Villegas",
+			".hero-unit",
+			".hero/unit",
+			"btn-primary",
+			"h2",
+			"screen_divisiones_sub_divisiones_7"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ul"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "00_Generales.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								496,
+								496
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9402.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "02_funcionalismos.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								346,
+								346
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										973,
+										974
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										899,
+										900
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Modelo_matrices.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1271,
+								1271
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1146,
+										1147
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1141,
+										1142
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1270,
+										1271
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1127,
+										1128
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 456.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Vue Js 2018.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"source\\css\\main - copia.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

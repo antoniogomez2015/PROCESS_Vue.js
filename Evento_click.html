@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo</title>	
+	
+</head>
+<body>
+
+	<!--
+	//////////////////////////////////////////////////////////////////////////////////////////
+	Vue Js
+
+		https://vuejs.org/
+			https://vuejs.org/v2/guide/
+
+
+		Curso Juan Andres nuñez: 28 (videos)
+			https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+			Aprende Vue.js esencial #1 - Introducción
+				https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+
+	//////////////////////////////////////////////////////////////////////////////////////////
+	-->	
+
+
+	
+	<div id="modulo">
+
+		<!--
+		_la ejecución del método ó función en éste caso "saludo", se llevará a cabo sólo cuando la acción ó evento de tipo "click", del botón sea realizada por el usuario
+		-->
+		<button @click="saludo">Pulse Aquí</button>
+
+	</div>	
+
+
+	
+	<!--vuejs-->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+	<!--model-->
+	<script type="text/javascript">
+	
+		new Vue({
+
+			el: '#modulo',
+
+			data:{
+
+				nombre: 'Juan'
+				
+			},
+
+			methods:{
+
+				saludo: function(_evt){
+
+					alert('Hola ' + this.nombre);
+
+					console.log(_evt);
+
+				}
+			}
+			
+		});
+
+
+	</script>
+	
+	
+</body>
+</html>

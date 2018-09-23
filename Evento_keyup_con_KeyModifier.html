@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo</title>	
+	
+</head>
+<body>
+
+	<!--
+	//////////////////////////////////////////////////////////////////////////////////////////
+	Vue Js
+
+		https://vuejs.org/
+			https://vuejs.org/v2/guide/
+
+
+		Curso Juan Andres nuñez: 28 (videos)
+			https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+			Aprende Vue.js esencial #1 - Introducción
+				https://www.youtube.com/watch?v=IlFk3cyRB0Y&list=PLM-Y_YQmMEqD2EWfWpSbiV3WgShRRW3FE
+
+
+	//////////////////////////////////////////////////////////////////////////////////////////
+	-->	
+
+
+	
+	<div id="modulo">
+
+		<!--evento "@keyup", de desencadena el método "teclaPulsada", sólo cuando la tecla específicada es discada
+
+		_de ésta manera, podremos indicar el código específico de un tecla para ser más específico
+
+		_en páginas como 
+
+			_"https://css-tricks.com/snippets/javascript/javascript-keycodes/"
+
+			_"http://keycode.info/"
+
+		-->
+
+		<button @keyup.38="teclaPulsada">Pulse Aquí</button>
+
+	</div>	
+
+
+	
+	<!--vuejs-->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+	<!--model-->
+	<script type="text/javascript">
+	
+		new Vue({
+
+			el: '#modulo',
+
+			data:{
+
+				nombre: 'Juan'
+				
+			},
+
+			methods:{
+
+				/*
+				_evento "teclaPulsada", que acceder al evento de navegador "click", a través, del método console.log(), el cuál, se ejecutará cada vez de pulsemos un tecla en el teclavo
+
+				_más si desplegamos una de las propiedades mostradas por la consola del navegador al usuario oprimir un tecla del teclado podremos encontrar propiedades como "code:", la cuál, hará referencial al nombre y código de la tecla discada respeticamente
+
+				_lo cuál, nos permitirá a su vez, poder concatenar ésta propiedad al parámetro de la función podremos renderizado ésta propiedad especificamente en la consola del navegador
+				*/
+				teclaPulsada: function(_evt){
+
+					console.log(_evt.code);					
+
+				}
+			}
+			
+		});
+
+
+	</script>
+	
+	
+</body>
+</html>
