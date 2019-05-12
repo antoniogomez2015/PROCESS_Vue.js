@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="main">
+
+        <h1>{{titulo}}</h1>
+
+    </div>
+
+ 
+
+
+<!--
+
+
+    Instancia VueJs:
+    ________________
+
+        _una vez hemos llamado ó relacionado vuejs, al final del documento html, dentro de un tag, de tipo script
+
+        _y de haber enmarcado todo el contenido html, que conformará vuejs, en un tag, html, bien definido con un id, ó class
+
+        _entonces ahora podremos relacionar un documento de scripts, personalizados a parte en el cuál, instanciaremos ha vuejs, para su utilización
+
+
+-->
+
+    <script>
+
+    /*
+    _de ésta manera, primeramente guardaremos en una constante la instancia y características aplicadas sobre la instancia de vuejs
+
+    _así, estaremos llamando a toda la librería vuejs, que hemos relacionado al final del documento html
+
+    _de ésta manera, la nueva instancia Vue, recivirá como parámetros un objeto
+
+
+    Objeto:
+    _______
+
+    _y como primera propiedad del objeto recibido dentro de vue
+
+
+        Tag html Contenedor:
+        ____________________
+
+        _a través, de la propiedad "el:", podremos indicar e identificar el bloque de elementos html, que serán controlados por vue
+
+
+        Sub Elementos Controlados:
+        __________________________
+        
+        _y los datos de vue, será controlador a través, de la propiedad "data", la cuál, tendrá como valor otro objeto anidado
+
+    */ 
+
+        const app = new Vue({
+
+            el: "#main",
+            data: {
+                titulo: "Bienvenido al mundo de VueJs"
+            }
+
+        });
+
+    </script>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/dev.js"></script>
+
+</body>
+</html>

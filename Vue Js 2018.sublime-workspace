@@ -1223,8 +1223,8 @@
 						"selection":
 						[
 							[
-								1271,
-								1271
+								266,
+								266
 							]
 						],
 						"settings":
@@ -1408,11 +1408,14 @@
 								"bh_regex_close",
 								"bh_regex_content"
 							],
+							"spell_check": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true,
+							"wrap_width": 0
 						},
 						"translation.x": 0.0,
-						"translation.y": 456.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
