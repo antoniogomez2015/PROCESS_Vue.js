@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--
+
+    Data Condicional If():
+    ______________________
+
+        _tenemos la posibilidad de manejar propiedades de control aún más complejas
+
+        _si no que a su vez, podremos utilizar estructuras de control de flujo como por ejemplo un condicional if(){}
+
+        _de ésta manera, podremos condicionar que una parte ó propiedad específica de "data", sea renderizada en relación a la lógica del sistema generado
+
+        _así, en la siguiente instancia de vue, dispondremos de la siguiente propiedad ó sub objeto data:
+
+
+            const app = new Vue({
+
+                el: '#main',
+                data: {                    
+                    history: [{lebel: "Cargo", cargo: "designer"}, {lebel2: "Antiguedad", aged: 5}, {lebel3: "Rendimiento", performance: "senior"}]
+                }
+
+            })
+
+
+        
+        
+    Interpolación:
+    ______________
+
+        _así, como los siguientes elementos html, que interpolarás las propiedades dentro del objeto data de vue
+
+        
+            <ul>
+                <li v-for="client of history">{{client.lebel}}:{{client.cargo}} | {{client.lebel2}}:{{client.aged}} | {{client.lebel3}}:{{client.performance}}<span v-if="client.aged === 0">Experiencia Insuficiente</span></li>            
+            </ul>
+
+
+
+        _más con el agregado que se ha condicionar cierto contenido html, incluido dentro en éste del <ul><li>, que en éste caso un <span>
+
+        _el cuál, tiene aplicado el atributo vue "v-if="", y dentro del cuál, podremos indicar la condición ha analizar
+
+        _y en éste caso, estamos indicando el nombre del array que le hemos asignado en el "ciclo for of", en éste caso "client" 
+        
+        _y de forma concatenada ".", el nombre de la propiedad específica al cuál, deseamos hacer referencia, en éste caso "eged"
+
+        _quedando de la siguiente manera y lógica: <span v-if="client.aged === 0">, es decir, que si el valor de la propiedad "aged", es exactamente igual ha "0" 
+            
+        _entonces sólo en caso será renderizado el contenido del tag <span>, en éste caso el contenido es: "Experiencia Insuficiente"
+
+
+
+
+
+
+
+
+-->
+</body>
+</html>

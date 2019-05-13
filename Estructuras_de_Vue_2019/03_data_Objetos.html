@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--
+
+    Data Objetos:
+    _____________
+
+        _tenemos la posibilidad de manejar propiedades de control aún más complejas de tipo Objects,para el manejo de datos más complejos
+
+        _de ésta manera, podremos reemplazar un elemento general ahora por múltiples valores dinámicamente
+
+        _donde primeramente debemos de construir la "propiedad - valor", en éste caso un objeto, dentro de la sub propiedad "data", de vue, ej: 
+
+            _user: {
+                name: "tony",
+                lastName: "Gomez",
+                eged: 38
+            }
+
+
+        _para posteriormente hacer referencia directa al elemento, ha interpolar en el html, especificando el nombre que le hemos dado a la propiedad
+        
+        _accediendo a cada propiedad del objeto y a su vez, haciendo referencia a cada propiedad independientemente
+
+        _más también, podríamos crear objetos dentro de un array para poder así, iterar las propiedaddes de objetos anidados unos dentro de otros y contiguos
+
+
+
+            const app = new Vue({
+
+                el: '#main',
+                data: {
+                    titulo: 'Bienvenido al mundo de VueJs',
+                    frutas: ["manzana", "pera", "platano"]
+                }
+
+            })
+
+
+        _también, tenemos la posibilidad de anidar objetos dentro de un array para poder así, itear los valores del objeto, ej: "history"
+
+
+            const app = new Vue({
+
+                el: '#main',
+                data: {
+                    titulo: 'Bienvenido al mundo de VueJs',
+                    history: [{lebel: "Cargo", cargo: "designer"}, {lebel2: "Antiguedad", aged: 3}, {lebel3: "Rendimiento", performance: "senior"}]
+                }
+
+            })
+
+
+
+    Interpolación:
+    ______________
+
+        _de ésta manera, en el html, debemos de hacer la propiedad "v-for="", ó loop, dentro de la respetiva tag html, en éste caso <li>
+
+        _para que así, como valor de la propiedad "v-for="", debemos indicar ó construir un ciclo for of, para poder iterar los valores del array que hemos creado dentro de vue
+
+        _de ésta manera, indicamos un nombre para ciclo, en éste caso "client"
+
+        _para posteriormente indicar que "client", se iterará de "of"
+
+        _la propiedad "history", del sub objeto de data, de vue
+
+        _para por último, proceder ha iterar dentro de las doble llaves {{}}, dentro de la respectiva tag, html
+        
+        _el nombre del array, que hemos creado, en éste caso "{{client}}", ej:
+
+
+            <ul>
+                <li v-for="client of history">{{client.lebel}}:{{client.cargo}} | {{client.lebel2}}:{{client.aged}} | {{client.lebel3}}:{{client.performance}}</li>
+            </ul>
+
+
+        
+        _de ésta manera, ahora vue, iterará los valores contenidos dentro del array que hemos creado "history",  en data dentro de tag, en éste caso <li>
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+</body>
+</html>

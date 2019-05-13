@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--
+
+    Data Ciclo For Arrrays:
+    _______________________
+
+        _tenemos la posibilidad de manejar propiedades de control más complejas de tipo por ejemplo; ciclo for, para el manejo de arrays
+
+        _de ésta manera, podremos reemplazar un elemento general ahora por múltiples valores dinámicamente
+
+        _donde primeramente debemos de construir la "propiedad - valor", de tipo array, deseada dentro de la sub propiedad "data", de vue, ej: 
+
+            _frutas: ["manzana", "pera", "platano"]
+
+
+        _para posteriormente hacer referencia directa al elemento, ha interpolar en el html, especificando el nombre que le hemos dado al ciclo for, ej: {{fruta}}
+
+
+
+            const app = new Vue({
+
+                el: '#main',
+                data: {
+                    titulo: 'Bienvenido al mundo de VueJs',
+                    frutas: ["manzana", "pera", "platano"]
+                }
+
+            })
+
+
+    Interpolación:
+    ______________
+
+        _de ésta manera, en el html, debemos de hacer la propiedad "v-for="", ó loop, dentro de la respetiva tag html, en éste caso <li>
+
+        _para que así, como valor de la propiedad "v-for="", debemos indicar ó construir un ciclo for of, para poder iterar los valores del array que hemos creado dentro de vue
+
+        _de ésta manera, indicamos un nombre para ciclo, en éste caso "fruta"
+
+        _para posteriormente indicar que "fruta", se iterará de "of"
+
+        _la propiedad "frutas", del sub objeto de data, de vue
+
+        _para por último, proceder ha iterar dentro de las doble llaves {{}}, dentro de la respectiva tag, html
+        
+        _el nombre del array, que hemos creado, en éste caso "{{fruta}}", ej:
+
+
+            <ul>
+                <li v-for="fruta of frutas">{{fruta}}</li>
+            </ul>
+
+        
+        _de ésta manera, ahora vue, iterará los valores contenidos dentro del array que hemos creado "frutas",  en data dentro de tag, en éste caso <li>
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+</body>
+</html>
