@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--
+
+    Data Actions Methods:
+    _____________________
+
+        _tenemos la posibilidad conectar el frontend, con vue, a través, de un input, de cara al usuario
+
+        _para que así, podamos capturar información del usuario y pasarla a la instancia de vue que hemos creado previamente
+        
+
+        V-Model:
+        ________
+
+        _para lo cuál, dispondremos del atributo "v-model="", a través, del cuál, podremos relacionar el sub objeto de data, respectivo en éste caso, "inf"
+
+
+        Propertie:
+        __________
+
+        _donde previamente tubimos que haber creado la respectiva propiedad ó sub objeto dentro de data, ó dentro de la instancia de vue, en éste caso "inf"
+
+        _la cuál, tendrá un valor de vacío, lo cuál, se expresa con unas comillas vancías
+
+
+        Information:
+        ____________
+
+        _de ésta manera, cuando el usuario agrege información en el campo de texto de tipo input y haga enter ó envíe la información 
+        
+        _ésta sea capturada dentro de vue para se utilizada posteriormente
+
+
+        Console:
+        ________
+
+        _lo cuál, podremos comprobar con la consola del navegador al llamar directamenete al objeto de la instancia de vue, que hemos creado, ej:
+
+            _"app.inf + enter"
+
+        _lo cuál, nos mostrará el valor ó información capturada por el campo que ha enviado el usuario ó cliente
+
+-->
+
+
+
+
+    <input type="text" v-model="inf">
+
+
+
+    <script>
+
+            const app = new Vue({
+        
+                el: '#main',
+                data: {
+                    inf: ""
+                }
+        
+            });
+            
+        </script>
+
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="main">
+
+        <!--interpolación para objetos a través de un array-->
+        <ul>
+            <li v-for="client of history">{{client.lebel}}:{{client.cargo}} | {{client.lebel2}}:{{client.aged}} | {{client.lebel3}}:{{client.performance}}<span v-if="client.aged === 0">Experiencia Insuficiente</span></li>            
+        </ul>
+
+        <!--capturar datos del usuario-->
+        <input type="text" v-model="infConsole">
+
+        <!--botón para enviar la información-->
+        <button v-on:click="infUser">Enviar ha Consola</button>
+
+
+        <!--capturar datos del usuario-->
+        <input type="text" v-model="infVue">        
+
+        <!--botón para enviar la información-->        
+        <button @click="retroActive">Enviar ha Vue</button>
+
+        <!--capturar datos del usuario-->
+        <input type="text" v-model="infObject">        
+
+        <!--botón para enviar la información-->        
+        <button @click="singleObject">Enviar ha Single Object</button>
+        
+        <ul>
+            <li>{{user}}</li>            
+        </ul>
+    
+                
+
+    </div>
+
+ 
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+<script>
+
+    const app = new Vue({
+
+        el: '#main',
+        data: {            
+            history: [{lebel: "Cargo", cargo: "designer"}, {lebel2: "Antiguedad", aged: 5}, {lebel3: "Rendimiento", performance: "senior"}],
+            user: {
+                alter: "base"
+            },
+            infConsole: "",
+            infObject: "",
+            infVue: ""         
+        },        
+        methods: {
+            infUser: function dataUser(){
+                console.log("hiciste click!");
+            },
+            singleObject: function(){
+                this.user.push(){
+                    visitante: this.infObject;
+                }
+            },
+            retroActive: function(){
+                this.history.push({
+                    date: this.inf, demo: "informacion"
+                })
+            }
+        }
+
+    });
+    
+</script>
+
+
+</body>
+</html>
+
+

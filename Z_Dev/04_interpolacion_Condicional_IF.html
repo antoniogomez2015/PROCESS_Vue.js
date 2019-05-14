@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="main">
+
+        <!--interpolación para objetos-->
+        <h2>{{user.name}} | {{user.lastName}} | {{user.eged}}</h2>
+
+        <!--interpolación para objetos a través de un array-->
+        <ul>
+            <li v-for="client of history">{{client.lebel}}:{{client.cargo}} | {{client.lebel2}}:{{client.aged}} | {{client.lebel3}}:{{client.performance}}<span v-if="client.aged === 0">Experiencia Insuficiente</span></li>            
+        </ul>
+
+
+                
+
+    </div>
+
+ 
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+<script>
+
+    const app = new Vue({
+
+        el: '#main',
+        data: {
+            user: {
+                name: "tony",
+                lastName: "Gomez",
+                eged: 38
+            },
+            history: [{lebel: "Cargo", cargo: "designer"}, {lebel2: "Antiguedad", aged: 5}, {lebel3: "Rendimiento", performance: "senior"}]
+        }
+
+    })
+    
+</script>
+
+
+</body>
+</html>
+
+

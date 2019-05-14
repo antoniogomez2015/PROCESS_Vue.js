@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--
+
+    Buttons V-On:Click - @Click:
+    ____________________________
+
+        _tenemos la posibilidad programar acciones de forma condicionada a través, de botones de vue
+
+        _a través, de dos atributos para tag, de tipo <button>, los cuáles son:
+
+
+            _v-on:click=""
+            _@click=""
+
+
+        _y a los cuáles, podremos pasarle como valor el cuál, es el nombre del método ha ejecutar respectivamente una vez ejecutado el evento de tipo click
+
+        _que en éste ejemplo es el método llamado "infUser", ej:
+
+        
+            <button v-on:click="infUser">Enviar</button>
+
+            <button @click="infUser">Enviar</button>
+        
+
+        
+
+-->
+
+
+
+    <div id="main">
+
+        <!--capturar datos del usuario-->
+        <input type="text" v-model="inf">
+
+        <!--botón para enviar la información-->
+        <!-- <button v-on:click="dataUser">Enviar</button> -->
+        <button @click="infUser">Enviar</button>
+                
+
+    </div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+<script>
+
+    const app = new Vue({
+
+        el: '#main',
+        data: {
+            inf: ""            
+        },
+        methods: {
+            infUser: function dataUser(){
+                console.log("hiciste click!");
+            }
+        }
+
+    });
+    
+</script>
+
+
+</body>
+</html>
