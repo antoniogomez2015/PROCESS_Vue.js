@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sistema</title>
+</head>
+<body>
+
+
+    <!--contenedor principal seguido por Vue-->
+    <main id="app">
+
+        <!--string para título de la aplicación interpolado con vue-->
+        <h1>{{titulo}}</h1>
+
+        <!--campo para agregar nuevos elementos a la lista-->
+        <input type="text" v-model="newElement" @keyup.enter="addEl">
+
+        <!--botón para ejecutar una función que agregará el nuevo elemento a la lista de elementos-->
+        <button @click="addEl">Agregar Elemento</button>
+      
+        
+        <ul>
+        <!--
+            dentro del mismo <li>, se cargarán de forma separada las propiedades del array 
+                
+            _donde por una lado primeramente se cargará el nombre de la propiedad de forma interpolada; {{}}
+
+            _y en un input, anidado al elemento <li>, se cargará el valor de la respectiva propiedad de forma dinámica a través, del input
+
+            _con la característica de que el campo del input muestra el valor por defecto de la propiedad "cantidad", del array respectivo
+
+            _hasta que éste valor es cambiado por el usuario a través, del mismo input, el cuál muestra el valor por defecto ó existente en la propiedad cantidad del array
+        -->
+
+            <!--renderización de iteración del array de de listado de elementos de vue-->
+            <li v-for="fruta of frutas">{{fruta.nombre}}
+                 <!--
+                    _el atributo "v-model="", tiene a su vez, concatenado ".", el atributo "number", para que así, el valor introducido por el usuario sea interpredo como un número y no como un string
+
+                    _y a su ves, tiene asignado como valor el nombre del array "fruta", pero a su vez, hace transversing, directo al nombre de la propiedad "cantidad", del objeto anidado de forma concatenada, "."
+                -->
+                <input type="number" v-model.number="fruta.cantidad">
+                    
+                <!--agregar o eliminar elementos de forma rápida-->
+                <button @click="fruta.cantidad++">+</button>
+                <button @click="fruta.cantidad--">-</button>
+
+                <!--propiedad del array condicionada por vue-->
+                <span v-if="fruta.cantidad === 0"> - Sin Stock</span>            
+            </li>
+
+            <!--
+                _interpolación de la función "calculate()", del objeto "computed", en vez de la propiedad "total"
+
+                _ya que la función "calculate()", devuelve "return", el nuevo valor actual de "this.total"
+            -->
+            <h4>Total: {{calcule}}</h4>
+
+        </ul>
+
+    </main>
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="../js/app_demo1.js"></script>
+</body>
+</html>

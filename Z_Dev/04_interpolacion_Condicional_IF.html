@@ -8,20 +8,29 @@
 </head>
 <body>
 
-    <div id="main">
+    <!--contenedor principal seguido por Vue-->
+    <main id="app">
 
-        <!--interpolación para objetos-->
-        <h2>{{user.name}} | {{user.lastName}} | {{user.eged}}</h2>
-
-        <!--interpolación para objetos a través de un array-->
+        <!--string para título de la aplicación interpolado con vue-->
+        <h1>{{titulo}}</h1>
+    
+        <!--campo para agregar nuevos elementos a la lista-->
+        <input type="text" v-model="newElement">
+    
+        <!--botón para ejecutar una función que agregará el nuevo elemento a la lista de elementos-->
+        <button @click="addEl">Agregar Elemento</button>
+    
+        <!--listado de elementos iterados de un array por vue-->
         <ul>
-            <li v-for="client of history">{{client.lebel}}:{{client.cargo}} | {{client.lebel2}}:{{client.aged}} | {{client.lebel3}}:{{client.performance}}<span v-if="client.aged === 0">Experiencia Insuficiente</span></li>            
+            <li v-for="fruta of frutas">{{fruta.nombre}} | {{fruta.cantidad}}
+    
+            <!--propiedad del array condicionada por vue-->
+            <span v-if="fruta.cantidad === 0"> - Sin Stock</span>
+                </li>
+    
         </ul>
-
-
-                
-
-    </div>
+    
+    </main>
 
  
 
@@ -34,17 +43,27 @@
 
     const app = new Vue({
 
-        el: '#main',
+        el: '#app',
         data: {
-            user: {
-                name: "tony",
-                lastName: "Gomez",
-                eged: 38
-            },
-            history: [{lebel: "Cargo", cargo: "designer"}, {lebel2: "Antiguedad", aged: 5}, {lebel3: "Rendimiento", performance: "senior"}]
+            titulo: 'Aplicación con VueJs',
+            frutas: [
+                {nombre: "Manzanas", cantidad: 10},
+                {nombre: "Peras", cantidad: 2},
+                {nombre: "Cambures", cantidad: 0}
+            ],
+            newElement: ""
+        },
+        methods: {
+            addEl(){
+                this.frutas.push({
+                    nombre: this.newElement, cantidad: 0               
+                });
+                //reseteo del input de texto
+                return this.newElement = ""           
+            }
         }
 
-    })
+    });
     
 </script>
 

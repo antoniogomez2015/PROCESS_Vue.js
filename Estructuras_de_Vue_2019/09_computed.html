@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--
+
+    Computed:
+    _________
+
+        _tenemos la posibilidad tomar acciones tras los posibles cambios de una propiedad determinada
+
+        _para lo cuál, dispondremos de los "computed", a partir de los cuáles, podremos crear una función y a través, de ésta podremos crear un ciclo "for of"
+
+        _de ésta manera, podremos recorrer un array de elementos para detectar cambios en una propiedad deseada
+
+        _para que así, en el momento que se detecte un cambio en la propiedad deseada se ejecute la función que hemos creado
+
+
+        Object:
+        _______
+
+        _de ésta manera, dentro de la instancia de vue, creada al final podremos un nuevo objeto, "computed"
+
+
+        Function:
+        _________
+
+        _para que así, en éste caso, creemos la función "calcule()"
+
+        _dentro de la cuál, podremos crear un ciclo for of para recorrer así, el array de elementos a supervisar posteriormente
+
+        _donde en éste caso, primero determinamos que el valor inicial de la propiedad cera de "0", ej:
+
+            _this.total = 0;
+
+
+        Ciclo For Of:
+        _____________
+
+        _para seguidamente crear el ciclo for of, y dentro del cuál, creamos la variable "el", en éste caso
+
+        _para que así, la variable temporarl "el", se itere dentro del array "this.frutas"
+
+        
+        Action:
+        _______
+
+        _para así, a través, del barrido realizado por el ciclo for of, poder modificar el parámetro "total", en éste caso, en relación a la interacción del usuario
+
+        _de ésta manera, determinamos el nuevo valor, ej:
+        
+            _this.total = this.total + el.cantidad;
+
+        _lo que quiere decir, que el valor actual de "this.total", ahora será
+
+        _el valor actual de "this.total", más el valor previo existente en cada elemento analizado dentro del array, en éste caso, el valor de la propiedad de "cantidad"
+
+        _para que así, sean sumados el valor indicado por el usuario junto con el valor existente en la propiedad previamente
+
+-->
+
+
+
+    <!--contenedor principal seguido por Vue-->
+    <main id="app">
+
+        <!--string para título de la aplicación interpolado con vue-->
+        <h1>{{titulo}}</h1>
+
+        <!--campo para agregar nuevos elementos a la lista-->
+        <input type="text" v-model="newElement" @keyup.enter="addEl">
+
+        <!--botón para ejecutar una función que agregará el nuevo elemento a la lista de elementos-->
+        <button @click="addEl">Agregar Elemento</button>
+      
+        
+        <ul>
+            <!--renderización de iteración del array de de listado de elementos de vue-->
+            <li v-for="fruta of frutas">{{fruta.nombre}}
+            <input type="number" v-model.number="fruta.cantidad">
+                
+            <!--agregar o eliminar elementos de forma rápida-->
+            <button @click="fruta.cantidad++">+</button>
+            <button @click="fruta.cantidad--">-</button>
+
+            <!--propiedad del array condicionada por vue-->
+            <span v-if="fruta.cantidad === 0"> - Sin Stock</span>            
+            </li>
+            
+            <h4>Total: {{calcule}}</h4>
+
+        </ul>
+
+    </main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<script>
+
+    const app = new Vue({
+
+        el: '#app',
+        data: {
+            titulo: 'Aplicación con VueJs',
+            frutas: [
+                {nombre: "Manzanas", cantidad: 10},
+                {nombre: "Peras", cantidad: 2},
+                {nombre: "Cambures", cantidad: 0}
+            ],
+            newElement: "",
+            total: 0
+        },
+        methods: {
+            addEl(){
+                this.frutas.push({
+                    nombre: this.newElement, cantidad: 0               
+                });
+                return this.newElement = ""           
+            }
+        },
+        computed: {
+            calcule(){
+                this.total = 0;
+                for(el of this.frutas){
+                    this.total = this.total + el.cantidad;
+                };
+                return this.total;
+            }
+        }
+
+    });
+
+</script>
+
+
+</body>
+</html>

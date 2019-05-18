@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--
+
+    Modifiers @keyup:
+    _________________
+
+        _tenemos la posibilidad ejecutar una función ó acción a través, de un evento directamente por medio del uso de una tecla del teclado del usuario
+
+        _de ésta manera, podremos capturar el evento sin la necesidad obligatoria de que el usuario tenga que hacer click, sobre un botón enviar
+
+        _para lo cuál, dispondremos del atributo 
+        
+            _"@keyup"
+        
+        más ha éste atributo @keyup, podremos concatenarle la tecla del teclado de la cuál, deseamos capturar el evento, ej:
+
+            _@keyup.enter=""
+
+        _para que así, podamos pasarle la función ha ejecutar tras el evento ejecutado, ej:
+
+            _@keyup.enter="infUser"
+
+        
+
+-->
+
+
+
+    <div id="main">
+
+        <!--capturar datos del usuario-->
+        <input type="text" v-model="inf" @keyup.enter="infUser">
+
+        <!--interlación del método "infUser"-->
+        <p>{{capture[0]}}</p>
+
+        <!--botón para enviar la información-->
+        <!-- <button v-on:click="dataUser">Enviar</button> -->
+        <button @click="infUser">Enviar</button>
+                
+
+    </div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+<script>
+
+    const app = new Vue({
+
+        el: '#main',
+        data: {
+            inf: "",
+            capture:[
+                
+            ]           
+        },        
+        methods: {
+            infUser: function dataUser(){
+                this.capture.push({
+                    info: this.inf
+                })
+            }
+        }
+
+    });
+    
+</script>
+
+
+</body>
+</html>
