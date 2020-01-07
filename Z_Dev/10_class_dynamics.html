@@ -5,29 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sistema</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<style>
-
-    .baseBg{
-        background-color: orange;
-    }
-
-    .main{
-        background-color: darkgreen;
-    }
-
-    .inf{
-        color: aliceblue;
-    }
-
-</style>
 <body>
+
+    <!--
+        Class Dynamics:
+        _______________
+
+        _los computed, nos permitirá crear una función que nos permitirá recorrer un array de elementos para hacer una comparación de un parámetro el cuál, por lo general es dinámico
+
+            Parámetro Analizado:
+            ____________________
+        
+            _en éste caso, es la propiedad "total", la cuál, tiene un valor por defecto de "0", ej: "total: 0"
+
+            _la propiedad "total", es obtenida de forma dinámica por medio de un input, por parte del usuario
+
+            Function:
+            _________
+
+            _de ésta manera, dentro del objeto "computed", creamos en éste caso la función "calcule"
+
+
+            Ciclo for of:
+            _____________
+
+            _
+
+
+
+    -->
 
 
     <!--contenedor principal seguido por Vue-->
-    <main id="app" :class="['CSSbg', 'p-3', 'text-white']">
+    <main id="app">
 
         <!--string para título de la aplicación interpolado con vue-->
         <h1>{{titulo}}</h1>
@@ -54,7 +65,7 @@
 
             <!--renderización de iteración del array de de listado de elementos de vue-->
             <li v-for="fruta of frutas">{{fruta.nombre}}
-                 <!--
+                <!--
                     _el atributo "v-model="", tiene a su vez, concatenado ".", el atributo "number", para que así, el valor introducido por el usuario sea interpredo como un número y no como un string
 
                     _y a su ves, tiene asignado como valor el nombre del array "fruta", pero a su vez, hace transversing, directo al nombre de la propiedad "cantidad", del objeto anidado de forma concatenada, "."
@@ -82,13 +93,44 @@
 
 
 
-
-
-
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="../js/app_demo1.js"></script>
+
+<script>
+
+    const app = new Vue({
+
+        el: '#app',
+        data: {
+            titulo: 'Aplicación con VueJs',
+            frutas: [
+                {nombre: "Manzanas", cantidad: 10},
+                {nombre: "Peras", cantidad: 2},
+                {nombre: "Cambures", cantidad: 0}
+            ],
+            newElement: "",
+            total: 0
+        },
+        methods: {
+            addEl(){
+                this.frutas.push({
+                    nombre: this.newElement, cantidad: 0               
+                });
+                return this.newElement = ""           
+            }
+        },
+        computed: {
+            calcule(){
+                this.total = 0;
+                for(el of this.frutas){
+                    this.total = this.total + el.cantidad;
+                };
+                return this.total;
+            }
+        }
+
+    });
+
+</script>
+
 </body>
 </html>

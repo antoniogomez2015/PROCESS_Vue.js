@@ -9,8 +9,10 @@ const app = new Vue({
             {nombre: "Cambures", cantidad: 0}
         ],
         newElement: "",
-        total: 0
-    },
+        total: 0,
+        CSSbg: 'bg-warning',
+        colorText: 'inf'
+    },   
     methods: {
         addEl(){
             this.frutas.push({
